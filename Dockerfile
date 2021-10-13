@@ -9,4 +9,5 @@ COPY ServiceMonitor.exe ServiceMonitor.exe
 
 EXPOSE 80
 
-ENTRYPOINT ["powershell.exe", ".\\DockerEntrypoint.ps1"]
+ENTRYPOINT ["powershell.exe", ".\\DockerEntrypoint.ps1"] 
+1 
